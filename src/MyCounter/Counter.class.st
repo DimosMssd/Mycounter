@@ -49,3 +49,9 @@ Counter >> increment12 [
 
 	count:= count + 12
 ]
+
+{ #category : 'accessing' }
+Counter >> initialize [ 
+	super initialize.
+	count := 0.
+]

@@ -36,3 +36,11 @@ c count: 2.
 c increment ; increment.
 self assert: c count equals: 4.
 ]
+
+{ #category : 'tests' }
+CounterTest >> testInitialize [
+
+| c |
+c := Counter new.
+self assert: c count equals: 0.
+]
